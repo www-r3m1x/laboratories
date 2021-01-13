@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA82612257C253E00828C73 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82611257C253E00828C73 /* main.swift */; };
+		7EA8261A257C254F00828C73 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82619257C254F00828C73 /* BuilderProtocol.swift */; };
+		7EA82621257C25CC00828C73 /* ConcreteBuilder1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82620257C25CC00828C73 /* ConcreteBuilder1.swift */; };
+		7EA82624257C25DA00828C73 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82623257C25DA00828C73 /* Model.swift */; };
+		7EA82627257C25E600828C73 /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82626257C25E600828C73 /* Director.swift */; };
+		7EA8262A257C25F800828C73 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82629257C25F800828C73 /* AbstractFactory.swift */; };
+		7EA8262E257C260D00828C73 /* LamboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA8262D257C260D00828C73 /* LamboCar.swift */; };
+		7EA82631257C264300828C73 /* FerrariCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82630257C264300828C73 /* FerrariCar.swift */; };
+		7EA82634257C265300828C73 /* AbstractCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82633257C265300828C73 /* AbstractCar.swift */; };
+		7EA82637257C266300828C73 /* LegoLambo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82636257C266300828C73 /* LegoLambo.swift */; };
+		7EA8263A257C267200828C73 /* LegoFerrari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA82639257C267200828C73 /* LegoFerrari.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EA8260C257C253E00828C73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EA8260E257C253E00828C73 /* lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab4; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA82611257C253E00828C73 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7EA82619257C254F00828C73 /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		7EA82620257C25CC00828C73 /* ConcreteBuilder1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteBuilder1.swift; sourceTree = "<group>"; };
+		7EA82623257C25DA00828C73 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7EA82626257C25E600828C73 /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		7EA82629257C25F800828C73 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		7EA8262D257C260D00828C73 /* LamboCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LamboCar.swift; sourceTree = "<group>"; };
+		7EA82630257C264300828C73 /* FerrariCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerrariCar.swift; sourceTree = "<group>"; };
+		7EA82633257C265300828C73 /* AbstractCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractCar.swift; sourceTree = "<group>"; };
+		7EA82636257C266300828C73 /* LegoLambo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoLambo.swift; sourceTree = "<group>"; };
+		7EA82639257C267200828C73 /* LegoFerrari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoFerrari.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA8260B257C253E00828C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA82605257C253E00828C73 = {
+			isa = PBXGroup;
+			children = (
+				7EA82610257C253E00828C73 /* lab4 */,
+				7EA8260F257C253E00828C73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA8260F257C253E00828C73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA8260E257C253E00828C73 /* lab4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA82610257C253E00828C73 /* lab4 */ = {
+			isa = PBXGroup;
+			children = (
+				7EA82611257C253E00828C73 /* main.swift */,
+				7EA82619257C254F00828C73 /* BuilderProtocol.swift */,
+				7EA82620257C25CC00828C73 /* ConcreteBuilder1.swift */,
+				7EA82623257C25DA00828C73 /* Model.swift */,
+				7EA82626257C25E600828C73 /* Director.swift */,
+				7EA82629257C25F800828C73 /* AbstractFactory.swift */,
+				7EA8262D257C260D00828C73 /* LamboCar.swift */,
+				7EA82630257C264300828C73 /* FerrariCar.swift */,
+				7EA82633257C265300828C73 /* AbstractCar.swift */,
+				7EA82636257C266300828C73 /* LegoLambo.swift */,
+				7EA82639257C267200828C73 /* LegoFerrari.swift */,
+			);
+			path = lab4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA8260D257C253E00828C73 /* lab4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA82615257C253E00828C73 /* Build configuration list for PBXNativeTarget "lab4" */;
+			buildPhases = (
+				7EA8260A257C253E00828C73 /* Sources */,
+				7EA8260B257C253E00828C73 /* Frameworks */,
+				7EA8260C257C253E00828C73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lab4;
+			productName = lab4;
+			productReference = 7EA8260E257C253E00828C73 /* lab4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA82606257C253E00828C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7EA8260D257C253E00828C73 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 7EA82609257C253E00828C73 /* Build configuration list for PBXProject "lab4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA82605257C253E00828C73;
+			productRefGroup = 7EA8260F257C253E00828C73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA8260D257C253E00828C73 /* lab4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA8260A257C253E00828C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA82612257C253E00828C73 /* main.swift in Sources */,
+				7EA8262A257C25F800828C73 /* AbstractFactory.swift in Sources */,
+				7EA8262E257C260D00828C73 /* LamboCar.swift in Sources */,
+				7EA8261A257C254F00828C73 /* BuilderProtocol.swift in Sources */,
+				7EA8263A257C267200828C73 /* LegoFerrari.swift in Sources */,
+				7EA82627257C25E600828C73 /* Director.swift in Sources */,
+				7EA82621257C25CC00828C73 /* ConcreteBuilder1.swift in Sources */,
+				7EA82624257C25DA00828C73 /* Model.swift in Sources */,
+				7EA82634257C265300828C73 /* AbstractCar.swift in Sources */,
+				7EA82631257C264300828C73 /* FerrariCar.swift in Sources */,
+				7EA82637257C266300828C73 /* LegoLambo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EA82613257C253E00828C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EA82614257C253E00828C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7EA82616257C253E00828C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRQ85N64G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7EA82617257C253E00828C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRQ85N64G5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA82609257C253E00828C73 /* Build configuration list for PBXProject "lab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA82613257C253E00828C73 /* Debug */,
+				7EA82614257C253E00828C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA82615257C253E00828C73 /* Build configuration list for PBXNativeTarget "lab4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA82616257C253E00828C73 /* Debug */,
+				7EA82617257C253E00828C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA82606257C253E00828C73 /* Project object */;
+}
